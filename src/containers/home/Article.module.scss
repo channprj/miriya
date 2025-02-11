@@ -12,6 +12,7 @@
 
   article {
     @include m.flexbox;
+    display: flex;
     flex-direction: column;
     width: 100%;
     white-space: pre-wrap;
@@ -26,6 +27,8 @@
     details {
       @include m.flexbox;
       padding: 14px;
+      display: flex;
+      flex-direction: column;
 
       &.noData {
         padding: 14px !important;
